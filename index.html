@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Roamers Homestay">
     <title>Roamers Homestay</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,18 +15,30 @@
 <body>
 
     <!--nav bar-->
-    <div class="container1">
-        <a href="#" alt="homestay-logo" class="home">
-            <img src="./Assets/Roamers-Homestay-Main-Logo.png" alt="Roamers Homestay">
-        </a>
-        <li class="home">
-            <ul>Home</ul>
-            <ul>About Us</ul>
-            <ul>Reversation</ul>
-            <ul>Nearby</ul>
-            <ul>Gallery</ul>
-            <ul>Contact Us</ul>
-        </li>
+    <nav>
+        <div class="container main-nav flex">
+            <a href="#" class="homestay-logo">
+                <img src="./Assets/Roamers-Homestay-Main-Logo.png" alt="Roamers Homestay">
+            </a>
+            <div class="nav-links" id="nav-links">
+                <ul class="flex">
+                    <li><a href="#" class="hover-link">Home</a></li>
+                    <li><a href="#" class="hover-link">About Us</a></li>
+                    <li><a href="#" class="hover-link">Reservation</a></li>
+                    <li><a href="#" class="hover-link">Nearby</a></li>
+                    <li><a href="#" class="hover-link">Gallery</a></li>
+                    <li><a href="#" class="hover-link">Contact Us</a></li>
+                    <li><a href="#" class="hover-link primary-button">Book Now </a></li>
+                </ul>
+            </div>
+            <a href="#" class="nav-toggle hover-link" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <img src="./Assets/Banner1.jpg" alt="Banner1" class="banner">
     </div>
 
 
